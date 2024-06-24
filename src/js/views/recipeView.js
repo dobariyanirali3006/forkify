@@ -1,6 +1,9 @@
 import View from './view.js';
 import icons from 'url:../../img/icons.svg';
 import { Fraction } from 'fractional';
+
+const Fraction = require('fractional').Fraction;
+
 class RecipeView extends View {
   _parentElements = document.querySelector('.recipe');
   _errorMessage = 'We could not find recipe. Please try another one!';
